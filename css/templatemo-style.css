@@ -36,6 +36,10 @@ body
 #portfolio .fp-slide,
 #portfolio .fp-tableCell,
 
+#publications,
+#publications .fp-slide,
+#publications .fp-tableCell,
+
 footer,
 footer .fp-slide,
 footer .fp-tableCell
@@ -54,7 +58,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #contact, #publications
     {
         padding-top: 100px;
         padding-bottom: 120px;
@@ -325,13 +329,49 @@ h1,h2,h3,h4,h5
     }
 /* end portfolio */
 
+/*start publications */
+#publications
+    {
+        text-align: center;
+    }
+#publications h2
+    {
+        padding-bottom: 30px;
+    }
+
+#publications .publications-thumb .publications-overlay
+    {
+        background: #D43F52;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding-top: 60px;
+        transition: all 0.4s ease-in-out;
+    }
+
+/* end publications */
+
 /* start contact */
+#contact
+    {
+        background: #1a1a1a;
+        text-align: center;
+    }
 
 #contact address
     {
       padding-bottom: 18px;
     }
-	
+#contact items
+    {
+        columns: 100px 3;
+    }
+    
 #contact .contact-title
     {
 		font-size: 24px;
@@ -339,6 +379,10 @@ h1,h2,h3,h4,h5
         padding-bottom: 20px;
 		color: #ffffff;
     }
+#contact h2
+{
+    padding-bottom: 30px;
+}
 #contact .fa
     {
         border: 2px solid #ffffff;
