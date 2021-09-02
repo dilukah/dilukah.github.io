@@ -293,7 +293,6 @@ h1,h2,h3,h4,h5
 #about .circular--square {
     border-radius: 50%;
   }
-<<<<<<< HEAD
 
 #about .center {
     display: block;
@@ -301,8 +300,6 @@ h1,h2,h3,h4,h5
     margin-right: auto;
     width: 50%;
   }
-=======
->>>>>>> b614573d029b76504c97309714ff4ea2febc8e42
 /* end about */
 
 /* start portfolio */
