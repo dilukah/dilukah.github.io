@@ -289,6 +289,17 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         float: right;
     }
+
+#about .circular--square {
+    border-radius: 50%;
+  }
+
+#about .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 /* end about */
 
 /* start portfolio */
