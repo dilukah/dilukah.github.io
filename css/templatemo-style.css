@@ -302,6 +302,21 @@ h1,h2,h3,h4,h5
   }
 /* end about */
 
+/*handle image and side text */
+.column section {
+    width: 50%;
+    background-color: #16BAC5;
+    padding: 1px 0px 1px 0px;
+    text-align: center;
+    font-family: "Alfa Slab One";
+    float: left;
+  }
+  
+  .column aside img {
+    float: right;
+    width: 100%;
+  }
+
 /* start portfolio */
 #portfolio
     {
