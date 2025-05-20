@@ -15,6 +15,26 @@ body
 	font-weight: 400;
 }
 
+/* Link color styles */
+a {
+    color: #D43F52; 
+    text-decoration: none; 
+    font-weight: 550;
+}
+
+a:hover {
+    color: #ffffff; 
+    text-decoration: underline; 
+}
+
+a:visited {
+    color: #999999; 
+}
+
+a:active {
+    color: #ff6666; 
+}
+
 /* start all section */
 #home,
 #home .fp-slide,
