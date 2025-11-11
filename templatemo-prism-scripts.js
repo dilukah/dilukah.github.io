@@ -24,18 +24,6 @@ https://templatemo.com/tm-600-prism-flux
             },
             {
                 id: 2,
-                title: 'Embedded Systems',
-                description: '',
-                image: 'images/home-bg.jpg',
-                tech: ['Real-time operating systems',
-                    'ARM MCU & FPGA programming',
-                    'PCB design & assembly',
-                    'Internet of Things (IoT)'
-                    ],
-                targetSection: 'stats' // <-- different section
-            },
-            {
-                id: 3,
                 title: 'Software Development',
                 description: '',
                 video: 'videos/deepSight.mp4',
@@ -46,7 +34,7 @@ https://templatemo.com/tm-600-prism-flux
                 targetSection: 'software-projects'
             },
             {
-                id: 1,
+                id: 3,
                 title: 'Mechatronics',
                 description: '',
                 image: 'images/mech1.jpg',
@@ -55,6 +43,20 @@ https://templatemo.com/tm-600-prism-flux
                         'Haptics & Teleoperation'
                         ],
                 targetSection: 'mechatronic-projects'   // <-- new property
+            }
+            ,
+            
+            {
+                id: 4,
+                title: 'Embedded Systems',
+                description: '',
+                image: 'images/home-bg.jpg',
+                tech: ['Real-time operating systems',
+                    'ARM MCU & FPGA programming',
+                    'PCB design & assembly',
+                    'Internet of Things (IoT)'
+                    ],
+                targetSection: 'stats' // <-- different section
             }
         ];
 
