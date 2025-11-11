@@ -1651,22 +1651,6 @@ a.info-item {
 /* Projects Section */
 .projects-section {
     padding: 80px 20px;
-    background: #0a0a0a; /* Dark background */
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.projects-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-/* Projects Section */
-.projects-section {
-    padding: 80px 20px;
     background: #0a0a0a; /* dark background */
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1726,6 +1710,8 @@ a.info-item {
     color: #ddd;
     max-width: 900px;
     margin: 0 auto;
+	text-align: justify; 
+    text-justify: inter-word; /* optional: makes spacing more natural */
 }
 
 /* Images */
