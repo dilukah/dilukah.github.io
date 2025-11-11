@@ -1661,6 +1661,10 @@ a.info-item {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.projects-section a{
+color: var(--accent-cyan)
+}
+
 .projects-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1894,6 +1898,9 @@ a.info-item {
     padding: 80px 20px;
     background-color: #0a0a0a;
     color: #fff;
+}
+.about-section a{
+color: var(--accent-cyan)
 }
 
 .about-container {
