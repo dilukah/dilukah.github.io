@@ -172,6 +172,31 @@ https://templatemo.com/tm-600-prism-flux
             updateCarousel();
         }
 
+        // --- Touch swipe support for mobile ---
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const swipeThreshold = 50; // Minimum px distance to count as swipe
+
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        carousel.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const diffX = touchEndX - touchStartX;
+            if (Math.abs(diffX) > swipeThreshold) {
+                if (diffX > 0) {
+                    prevSlide(); // Swipe right → previous slide
+                } else {
+                    nextSlide(); // Swipe left → next slide
+                }
+            }
+        }
+
         function updateCarousel() {
         const items = document.querySelectorAll('.carousel-item');
         const indicators = document.querySelectorAll('.indicator');
