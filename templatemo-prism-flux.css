@@ -1749,6 +1749,34 @@ a.info-item {
     align-items: center;
 }
 
+
+.project-columns {
+    display: flex;
+    flex-direction: column; /* mobile: stacked */
+    gap: 30px;
+    width: 100%;
+}
+
+/* side-by-side columns on desktop */
+@media (min-width: 992px) {
+  .project-columns {
+    flex-direction: row; /* switch to two columns */
+    flex-wrap: wrap; /* allows heading to take full row */
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .project-columns > h2 {
+    flex-basis: 100%; /* heading takes its own full row */
+    order: 0;
+  }
+
+  .project-left,
+  .project-right {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
 /* Columns individually */
 .project-left,
 .project-right {
