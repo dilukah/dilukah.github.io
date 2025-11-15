@@ -56,7 +56,7 @@ https://templatemo.com/tm-600-prism-flux
                     'PCB design & assembly',
                     'Internet of Things (IoT)'
                     ],
-                targetSection: 'stats' // <-- different section
+                targetSection: 'electronic-projects' // <-- different section
             }
         ];
 
